@@ -1,4 +1,4 @@
-@media screen and (min-width:768px){
+@media screen and (min-width:48rem){
 
 /*   header   */    
 
@@ -6,32 +6,32 @@ header{
     display: grid;
     grid-template-areas: 'logo nav' 'content img';
     align-items: center;
-    gap: 50px;
-    padding: 30px 50px ;
+    gap: 3.125rem;
+    padding: 1.875rem 3.125rem ;
 }
 
 .header-img{
-    max-width: 500px;
+    max-width: 31.25rem;
 }
 
 .header-content{
-    max-width: 550px;
+    max-width: 34.375rem;
     text-align: left;
 }
 
 .header-content p{
-    padding: 20px 0px;
+    padding: 1.25rem 0rem;
 }
 
 header form{
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 header .email{
     width: 65%;
-    padding: 10px;
-    margin: 0px;
+    padding: 0.625rem;
+    margin: 0rem;
 }
 
 header .button{
@@ -47,7 +47,7 @@ main{
 }
 
 section{
-    padding: 10px 50px;
+    padding: 0.625rem 3.125rem;
 }
 
 .background{
@@ -56,30 +56,30 @@ section{
 
 section.img{
     grid-area: img;
-    max-width: 800px;
+    max-width: 50rem;
     align-self: center;
 }
 
 section.content{
     grid-area: content;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 section.content h2{
     text-align: left;
     font-size: 2rem;
-    padding: 10px 5px;
+    padding: 0.625rem 0.3125rem;
 }
 
 section.content p{
-    max-width: 900px;
-    padding-top: 10px;
+    max-width: 56.25rem;
+    padding-top: 0.625rem;
 }
 
 section.card{
     grid-area: card;
-    max-width: 400px;
+    max-width: 25rem;
 }
 
 .section-form{
@@ -87,7 +87,7 @@ section.card{
     display: grid;
     grid-template-areas: 'h2 form2' 'p form2';
     text-align: left;
-    padding: 70px 50px;
+    padding: 4.375rem 3.125rem;
     align-items: center;
 }
 
@@ -98,12 +98,12 @@ section.card{
 .section-form p{
     grid-area: p;
     font-size: .9rem;
-    max-width: 500px;
+    max-width: 31.25rem;
 }
 
 .section-form form{
     grid-area: form2;
-    max-width: 800px;
+    max-width: 50rem;
 }
 
 .section-form .button{
@@ -116,7 +116,7 @@ footer{
     display: grid;
     grid-template-areas: 'logo nav social' 'add nav att';
     align-items: center;
-    padding: 80px 50px;
+    padding: 5rem 3.125rem;
 }
 
 footer.logo{
