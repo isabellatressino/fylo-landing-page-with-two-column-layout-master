@@ -114,13 +114,9 @@ section.card{
 
 footer{
     display: grid;
-    grid-template-areas: 'logo nav social' 'add nav att';
+    grid-template-areas: 'add nav social' 'add nav att';
     align-items: center;
     padding: 5rem 3.125rem;
-}
-
-footer.logo{
-    grid-area: logo;
 }
 
 address{
