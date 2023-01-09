@@ -182,20 +182,30 @@ blockquote{
 
 figure {
     display: flex;
+    flex-direction: column;
     gap: 0.9375rem;
 }
 
 figure img{
     width: 3.125rem;
     border-radius: 50%;
+    grid-area: img;
+}
+
+figcaption{
+    display: grid;
+    grid-template-areas: 'img name' 'img cargo';
+    grid-template-columns: 4rem auto;
 }
 
 figcaption .name{
     font-weight: bolder;
+    grid-area: name;
 }
 
 figcaption .cargo{
     font-size: .85rem;
+    grid-area: cargo;
 }
 
 /* main section form */
